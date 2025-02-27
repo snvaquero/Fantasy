@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Backend", "Fantasy.Backend\Fantasy.Backend.csproj", "{1F8DF5D0-167F-4246-89BC-05A90570C48C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88C3ECD1-487D-4676-9468-18730D5FC8A3} = {88C3ECD1-487D-4676-9468-18730D5FC8A3}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Frontend", "Fantasy.Frontend\Fantasy.Frontend.csproj", "{5225EE8A-FEA6-4017-8E89-665CDB88062A}"
 EndProject
