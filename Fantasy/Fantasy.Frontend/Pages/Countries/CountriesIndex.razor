@@ -1,0 +1,36 @@
+﻿@page "/countries"
+
+
+<h3>@Localizer["Countries"]</h3> 
+ 
+<div class="mb-3"> 
+    <a class="btn btn-primary" href="/countries/create">@Localizer["New"] @Localizer["Country"]</a>
+</div> 
+ 
+<GenericList MyList="Countries"> 
+    <Body> 
+        <table class="table table-striped"> 
+            <thead> 
+                <tr> 
+                    <th>@Localizer["Country"]</th>
+                    <th></th> 
+                </tr> 
+            </thead> 
+            <tbody> 
+                @foreach (var country in Countries!) 
+
+                { 
+                    <tr> 
+                        <td> 
+                            @country.Name 
+                        </td> 
+                        <td>
+                            <a class="btn btn-warning">@Localizer["Edit"]</a>
+                            <button class="btn btn-danger">@Localizer["Delete"]</button>
+                        </td> 
+                    </tr> 
+                } 
+            </tbody> 
+        </table> 
+    </Body> 
+</GenericList>

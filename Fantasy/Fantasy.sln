@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Backend", "Fantasy.Backend\Fantasy.Backend.csproj", "{3FEBEDB9-0C8D-4B2E-8CDC-51EE62448D16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Frontend", "Fantasy.Frontend\Fantasy.Frontend.csproj", "{9FDC626D-5985-45F5-99D1-B0E19B1BDA37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A34D49E2-C119-4715-BBDC-FFAAA8FB834F} = {A34D49E2-C119-4715-BBDC-FFAAA8FB834F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Shared", "Fantasy.Shared\Fantasy.Shared.csproj", "{A34D49E2-C119-4715-BBDC-FFAAA8FB834F}"
 EndProject
